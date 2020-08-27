@@ -11,5 +11,4 @@ def hello_t(names)
   hello_t(names){ |name| puts "Hi, #{name}"}
   if name.start_with?("T")
 end
-names
 end
