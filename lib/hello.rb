@@ -17,7 +17,7 @@ end
 #expect{ hello_t(names){ |name| puts name } }
 
 def hello_t(names)
-  names=[]
+  names.each do=[]
   
 
 
