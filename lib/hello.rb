@@ -8,7 +8,7 @@ end
 # call your method here!
 
 def hello_t(names)
+  if names.start_with?("T")
   hello_t(names){ |name| puts "Hi, #{name}"}
-  if name.start_with?("T")
 end
 end
