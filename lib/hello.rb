@@ -1,5 +1,4 @@
 
-
 array= ["Tim", "Tom", "Jim"]
 
 def_t(["Tim", "Tom", "Jim"]) do|name|
