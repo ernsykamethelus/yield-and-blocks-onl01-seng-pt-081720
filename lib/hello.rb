@@ -6,9 +6,19 @@ i+=1
 end
 
 # call your method here!
+def hello_t ;"Tim" "Tom" "Jim"|name|
+  if name.start_with?("T")
+    puts "Hi, #{name}"
+  end
+  hello_t
+end
+  
+  
+#expect{ hello_t(names){ |name| puts name } }
 
-def hello_t(names)
-  if names.start_with?("T")
-  hello_t(names){ |name| puts "Hi, #{name}"}
-end
-end
+
+
+
+
+
+
