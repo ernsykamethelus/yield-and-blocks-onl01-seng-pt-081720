@@ -6,23 +6,15 @@ i+=1
 end
 
 # call your method here!
-def hello_t ;"Tim" "Tom" "Jim"|name|
-  if name.start_with?("T")
-    puts "Hi, #{name}"
-  end
-  name
-end
-  
-  
-#expect{ hello_t(names){ |name| puts name } }
-
 def hello_t(names)
   names.each do |name|
     if name.start_with?("T")
       puts "Hi, #{name}"
     end
   
-
+  
+  
+#expect{ hello_t(names){ |name| puts name } }
 
 #describe "#hello_t" do
  # let (:names) { ["Tim", "Tom", "Jim"] }
