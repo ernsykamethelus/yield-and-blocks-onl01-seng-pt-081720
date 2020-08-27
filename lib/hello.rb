@@ -6,11 +6,8 @@ i+=1
 end
 
 # call your method here!
-def hello_t ;"Tim" "Tom" "Jim"|name|
+
+def hello_t(names)
+  hello_t(names){ |name| puts "Hi, #{name}"
   if name.start_with?("T")
-    puts "Hi, #{name}"
-  end
-  hello_t
 end
-  
-  
