@@ -12,7 +12,7 @@ def hello_t(names)
     if name.start_with?("T")
       puts "Hi, #{name}"
     end
-    hello_names
+
   end
   
   
