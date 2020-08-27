@@ -5,6 +5,8 @@ yield array[1]
 i+=1
 end
 
+end
+
 # call your method here!
 def hello_t;"Tim" "Tom" "Jim" |name|
   if name.start_with?("T")
